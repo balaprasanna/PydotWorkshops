@@ -1,0 +1,116 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>PydotWorkshops</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id=""
+                  title="PydotWorkshops"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Scenario" duration="0">
+        <ol type="1">
+<li>You have been given a file (text file + zip file).</li>
+<li><code>task.md</code> Read this file for more info on the task /workshop</li>
+<li>Write a python program to finish the task</li>
+<li>Packages to use will be listed in requirements.txt<br><em>Feel free to add anymore packages if you wish to use.</em></li>
+</ol>
+<h3 is-upgraded>Task1:</h3>
+<ol type="1">
+<li>Image pre processing task</li>
+</ol>
+<ul>
+<li>read from folder<ul>
+<li>filter only files with some extensions</li>
+</ul>
+</li>
+<li>read from csv file</li>
+<li>split the files / items into two sets<ul>
+<li>train</li>
+<li>valid</li>
+</ul>
+</li>
+<li>label the images based on the filename.</li>
+<li>label the images based on csv file</li>
+<li>Load items in pair(x,y)</li>
+<li>List(? , ? ,  ?, )</li>
+<li>Transforms<ul>
+<li>resize</li>
+</ul>
+</li>
+<li>To_Batch</li>
+<li>Transforms<ul>
+<li>batch level transforms..</li>
+</ul>
+</li>
+</ul>
+<h3 is-upgraded>Task2</h3>
+<ol type="1">
+<li>Text pre processing task</li>
+</ol>
+<ul>
+<li>Load data from file / files.. / folder / csv file</li>
+<li>Tokenize the words into numbers, using a vocab</li>
+<li>Find out the maxium length sequence</li>
+<li>Choose an optimal sequence length<ul>
+<li>Padd zeros to short sequences to make all of them of same length</li>
+<li>Trim longer sequences inputs to optimal seq length</li>
+</ul>
+</li>
+<li>Label data points</li>
+<li>Split data</li>
+<li>Optionaly, turn tokens into vectors based on word vectors...<ul>
+<li>glove</li>
+<li>word2vec</li>
+</ul>
+</li>
+</ul>
+<h3 is-upgraded>Task3</h3>
+<ol type="1">
+<li>Strucuted ML Task</li>
+</ol>
+<ul>
+<li>load data</li>
+<li>clean</li>
+<li>split x,y</li>
+<li>split train, test</li>
+<li>del unwanted columsn.. or give less weightage</li>
+<li>preprocess each column ....</li>
+<li>store preprocess info for each colum / used for test data</li>
+</ul>
+<h3 is-upgraded>Task4</h3>
+<ul>
+<li>write functions</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>
